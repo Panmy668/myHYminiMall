@@ -1,0 +1,21 @@
+/* components/w-tab/w-tab.wxss */
+.tabcontent{
+  width: 100%;
+  display: flex;
+  margin-bottom: 16rpx;
+}
+.tabMain{
+  flex: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+  display: inline-block;
+}
+.active {
+  color: #ff5777;
+}
+.active text{
+  padding-bottom: 10rpx;
+  border-bottom: 10rpx solid #ff5777;
+}

@@ -1,0 +1,8 @@
+<!--components/w-category/w-category.wxml-->
+<scroll-view class="categoryMenu" scroll-y style="height:{{currentHeight}}rpx">
+	<block wx:for="{{catagorys}}" wx:index="{{index}}">
+		<view class="item {{index == currentIndex ? 'active':''}}" bindtap="menuClick" data-index="{{index}}" data-maitkey="{{item.maitKey}}" data-miniwallkey="{{item.miniwallkey}}">
+  	{{item.title}}
+		</view>
+	</block>
+</scroll-view>

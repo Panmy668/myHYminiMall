@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<scroll-view>
+	<!-- banner -->
+	<w-swiper banners="{{banners}}" swiperheight="360" />
+	<!-- 推荐栏 -->
+	<w-recommend recommends="{{recommend}}" />
+	<!-- 本周流行 -->
+	<view class="feature">
+		<image src="/assets/images/home/recommend_bg.jpg" style="width:100%"></image>
+	</view>
+	<!-- tab栏 -->
+	<w-tab tabs="{{tabs}}" bindtabItemClick="tabItemClick"></w-tab>
+	<!-- 商品 -->
+	<w-goods goods="{{goods[currentType].list}}" />
+</scroll-view>

@@ -1,0 +1,18 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+	<!-- 类目 -->
+	<w-category id="w-category" currentHeight="{{currentHeight}}" catagorys="{{catagorys}}" bindmenuclick="menuclick" />
+	<scroll-view class="content" scroll-y style="height:{{currentHeight}}rpx" scroll-top="{{content_scroll_top}}">
+		<view class="subcatagory">
+			<block wx:for="{{subcategories}}" wx:index="{{index}}">
+				<view class="subItem">
+					<image src="{{item.image}}" mode='widthFix'></image>
+					<text>{{item.title}}</text>
+				</view>
+			</block>
+		</view>
+		<view class='detail'>
+			<w-goods goods="{{categoryDetail}}" />
+		</view>
+	</scroll-view>
+</view>

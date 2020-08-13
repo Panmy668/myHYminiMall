@@ -1,0 +1,23 @@
+/* pages/profile/child/w-money/w-money.wxss */
+.money{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28rpx;  
+  background: #f8f8f8;
+  /* border-bottom: 36rpx solid #f8f8f8; */
+}
+.item{
+  width: 33%;
+  height: 198rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.count{
+  color: #ff5f3e;
+  font-size: 40rpx;
+  font-weight: 700;
+}

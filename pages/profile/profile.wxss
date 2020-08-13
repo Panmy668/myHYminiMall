@@ -1,0 +1,26 @@
+.profoile{
+  height: 100%;
+  overflow: hidden;
+}
+.list-view{
+  width: 100%;
+  border-top: 36rpx solid #f8f8f8;
+}
+.list-item{
+  width: 100%;
+  height: 100rpx;
+  font-size: 32rpx;
+  padding-left: 30rpx;
+  line-height: 100rpx;
+  background: #fff;
+  border-bottom: 1px solid #f8f8f8;
+}
+.list-item image{
+  width: 40rpx;
+height: 40rpx;
+vertical-align: middle;
+}
+.list-item text{
+  margin-left: 16rpx;
+  vertical-align: middle;
+}

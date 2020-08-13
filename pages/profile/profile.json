@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-header":"./child/w-header/w-header",
+    "w-money":"./child/w-money/w-money"
+  },
+  "navigationBarTitleText":"我的信息",
+  "disableScroll": true
+}

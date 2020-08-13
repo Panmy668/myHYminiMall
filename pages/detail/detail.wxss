@@ -1,0 +1,57 @@
+/* pages/detail/detail.wxss */
+.product {
+  height: auto;
+  padding: 16rpx;
+  margin-top: 10rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.title {
+  font-size: 32rpx;
+}
+
+.priceInfo {
+  padding: 16rpx;
+  margin-top: 10rpx;
+
+}
+
+.newPrice {
+  color: red;
+  font-size: 40rpx;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  margin: 0rpx 16rpx;
+
+}
+
+.discount {
+  background: #ff5777;
+  color: #fff;
+  padding: 4rpx 6rpx;
+  font-size: 24rpx;
+  border-radius: 16rpx;
+  position: relative;
+}
+
+.sellInfo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+  margin-top: 30rpx;
+  padding-bottom: 16rpx;
+  border-bottom: 1px solid rgba(200, 200, 200, .6);
+}
+.service{
+  font-size: 26rpx;
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 0;
+}
+.service image{
+  width: 24rpx;
+height: 24rpx;
+margin-right: 6rpx;
+}

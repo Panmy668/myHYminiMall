@@ -1,0 +1,49 @@
+/* pages/profile/w-header/w-header.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  background: #ff5777;
+  height: 170rpx;
+  padding: 12rpx 30rpx 12rpx 40rpx;
+  text-align: center;
+}
+.avatar image{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  background: #f2f2f2;
+}
+.user{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  margin-left: 30rpx;
+}
+.user image{
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align:middle
+}
+.login{
+  padding-left: 10rpx;
+  font-size: 36rpx;
+}
+.login button{
+  width: auto;
+  padding: 0;
+  margin: 0;
+  font-size: 36rpx;
+  border: 0;
+  font-weight: 100;
+  color: #f2f2f2;
+}
+.tipPhone{
+  font-size: 28rpx;
+}
+
+.arrow image{
+  width: 60rpx;
+  height: 60rpx; 
+}

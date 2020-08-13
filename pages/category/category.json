@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-category":"../../components/w-category/w-category",
+    "w-goodsitem":"../../components/w-goodsitem/w-goodsitem",
+    "w-goods":"../../components/w-goods/w-goods"
+  },
+  "navigationBarTitleText": "商品分类"
+}

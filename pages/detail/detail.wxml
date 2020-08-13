@@ -1,0 +1,30 @@
+<!--pages/detail/detail.wxml-->
+<view>
+	<!-- banner -->
+	<w-swiper banners="{{banners}}" swiperheight="800" />
+
+	<view class="product">
+		<view class="title">
+			2018秋季新款韩版女装字母印花宽松连帽休闲卫衣搭配松紧腰九分牛仔裤两件套女时尚运动套装潮
+		</view>
+		<view class="priceInfo">
+			<text class="newPrice">¥68.99~¥79.88</text>
+			<text class="oldPrice">¥97.15</text>
+			<text class="discount">促销价</text>
+		</view>
+		<view class="sellInfo">
+			<view>销量 <text>999</text></view>
+			<view>收藏 <text>999人</text></view>
+			<view>默认快递</view>
+		</view>
+		<view class="service">
+			<view>
+				<image src="//s11.mogucdn.com/p1/160607/upload_ie4tkmbtgqztomjqhezdambqgqyde_44x44.png" />全国包邮</view>
+			<view>
+				<image src="//s11.mogucdn.com/p1/160607/upload_ie4tkmbtgqztomjqhezdambqgqyde_44x44.png" />7天无理由退货</view>
+			<view>
+				<image src="//s11.mogucdn.com/p1/160607/upload_ie4tkmbtgqztomjqhezdambqgqyde_44x44.png" />72小时发货</view>
+
+		</view>
+	</view>
+</view>

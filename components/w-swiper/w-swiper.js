@@ -1,0 +1,30 @@
+// components/w-swiper/w-swiper.js
+Component({
+  /**
+   * 组件的属性列表
+   */
+  properties: {
+    banners:{
+      type:Array,
+      value:[]
+    },
+    swiperheight:{
+      type:Number,
+      value:300
+    }
+  },
+
+  /**
+   * 组件的初始数据
+   */
+  data: {
+
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+
+  }
+})

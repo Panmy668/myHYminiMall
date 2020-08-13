@@ -1,0 +1,43 @@
+/* pages/category/category.wxss */
+
+
+.category {
+  display: flex; 
+  height: 100%;  
+  overflow: hidden;
+}
+.category w-category {
+  width: 30%;
+}
+.content {
+  width: 70%;  
+}
+
+.subcatagory {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx;
+  margin-top: 30rpx; 
+}
+
+.subItem {
+  width: 33.33%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.subItem image {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.subItem text {
+  font-size: 28rpx;
+  margin: 30rpx 0;
+  display: block;
+}
+.detail {
+  width: 100%;
+}

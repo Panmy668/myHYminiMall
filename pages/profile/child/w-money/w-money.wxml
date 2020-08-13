@@ -1,0 +1,16 @@
+<!--pages/profile/child/w-money/w-money.wxml-->
+
+	<view class="money">
+		<view class="item">
+			<text><text class="count">0.00</text>元</text>
+			<text>我的余额</text>
+		</view>
+		<view class="item">
+			<text><text  class="count">0</text>个</text>
+			<text>我的优惠</text>
+		</view>
+		<view class="item">
+			<text><text  class="count">0</text>分</text>
+			<text>我的积分</text>
+		</view>
+	</view> 
