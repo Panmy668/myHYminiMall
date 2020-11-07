@@ -1,6 +1,5 @@
 // pages/home/home.js
-import * as homeApi from '../../service/api/homeapi.js'
-import request from '../../service/network.js'
+import * as homeApi from '../../service/api/homeapi.js' 
 
 Page({
 

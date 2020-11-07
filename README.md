@@ -1,5 +1,5 @@
 练手小程序
-
+<img src="assets/images/other/1597302300361.png" />
 ![1597302300361](assets/images/other/1597302300361.png)
 
 ![1597302320230](assets/images/other/1597302320230.png)

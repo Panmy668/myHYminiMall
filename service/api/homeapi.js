@@ -1,5 +1,4 @@
 import request from '../network.js'
-
 export function gethomeData() {
   return request({
     url: '/home/data',
